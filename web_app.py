@@ -51,9 +51,9 @@ st.title("Метео данные для города Саратов")
 col1, col2 = st.columns(2)
 
 with col1:
-    start = st.date_input("Введеите дату начала периода:")
+    start = st.date_input("Введите дату начала периода:")
 with col2:
-    end = st.date_input("Введеите дату конца периода:")
+    end = st.date_input("Введите дату конца периода:")
 
 st.write('Ваши даты:', start, " - ", end)
 
